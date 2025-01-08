@@ -26,8 +26,21 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
+
+h1 {
+  @apply text-4xl text-balance;
+}
+h2 {
+  @apply text-3xl text-balance;
+} 
+h3 {
+  @apply text-2xl text-balance;
+} 
+
